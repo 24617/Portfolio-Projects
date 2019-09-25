@@ -1,0 +1,933 @@
+fileFormatVersion: 2
+guid: ac93d64d9e7576e4a91129680d38787e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: backplate_high
+    100002: backplate_high1
+    100004: Bind_Head
+    100006: Bind_HeadTop_End
+    100008: Bind_Hips
+    100010: Bind_Joint_GRP
+    100012: Bind_LeftArm
+    100014: Bind_LeftFoot
+    100016: Bind_LeftForeArm
+    100018: Bind_LeftHand
+    100020: Bind_LeftLeg
+    100022: Bind_LeftShoulder
+    100024: Bind_LeftToe_End
+    100026: Bind_LeftToeBase
+    100028: Bind_LeftUpLeg
+    100030: Bind_Neck
+    100032: Bind_RightArm
+    100034: Bind_RightFoot
+    100036: Bind_RightForeArm
+    100038: Bind_RightHand
+    100040: Bind_RightLeg
+    100042: Bind_RightShoulder
+    100044: Bind_RightToe_End
+    100046: Bind_RightToeBase
+    100048: Bind_RightUpLeg
+    100050: Bind_Spine
+    100052: Bind_Spine1
+    100054: Bind_Spine2
+    100056: blade
+    100058: buckle
+    100060: calf_L
+    100062: Character
+    100064: chestplate
+    100066: crotchguard
+    100068: crotchguard 1
+    100070: CTRL_GRP
+    100072: FK_LeftArm
+    100074: FK_LeftFoot
+    100076: FK_LeftForeArm
+    100078: FK_LeftHand
+    100080: FK_LeftLeg
+    100082: FK_LeftToe_End
+    100084: FK_LeftToeBase
+    100086: FK_LeftUpLeg
+    100088: FK_RightArm
+    100090: FK_RightFoot
+    100092: FK_RightForeArm
+    100094: FK_RightHand
+    100096: FK_RightLeg
+    100098: FK_RightToe_End
+    100100: FK_RightToeBase
+    100102: FK_RightUpLeg
+    100104: global_CTRL
+    100106: Head_CTRL
+    100108: Head_CTRL_AnimData_CONST_GRP
+    100110: Head_CTRL_In_Rig_CONST_GRP
+    100112: Head_CTRL_Inherit_Rotation_GRP
+    100114: Head_CTRL_POS_GRP
+    100116: helmet
+    100118: IK_Dummy_Hips
+    100120: IK_Dummy_Joint_GRP
+    100122: IK_Dummy_LeftShoulder
+    100124: IK_Dummy_RightShoulder
+    100126: IK_Dummy_Spine
+    100128: IK_Dummy_Spine1
+    100130: IK_Dummy_Spine2
+    100132: IK_LeftArm
+    100134: IK_LeftFoot
+    100136: IK_LeftForeArm
+    100138: IK_LeftHand
+    100140: IK_LeftLeg
+    100142: IK_LeftToe_End
+    100144: IK_LeftToeBase
+    100146: IK_LeftUpLeg
+    100148: IK_RightArm
+    100150: IK_RightFoot
+    100152: IK_RightForeArm
+    100154: IK_RightHand
+    100156: IK_RightLeg
+    100158: IK_RightToe_End
+    100160: IK_RightToeBase
+    100162: IK_RightUpLeg
+    100164: Joint_GRP
+    100166: kneeguard_L
+    100168: kneeguard_R
+    100170: Left_Ankle_IK_AnimData_GRP
+    100172: Left_Ankle_IK_CTRL
+    100174: Left_Toe_End_IK_CTRL
+    100176: Left_Toe_IK_AnimData_GRP
+    100178: Left_ToeBase_IK_AnimData_GRP
+    100180: Left_ToeBase_IK_CTRL
+    100182: Left_ToeBase_IkHandle
+    100184: LeftArm_FK_CTRL
+    100186: LeftArm_FK_CTRL_AnimData_CONST_GRP
+    100188: LeftArm_FK_CTRL_In_Rig_CONST_GRP
+    100190: LeftArm_FK_CTRL_POS_GRP
+    100192: LeftFoot_FK_CTRL
+    100194: LeftFoot_FK_CTRL_AnimData_CONST_GRP
+    100196: LeftFoot_FK_CTRL_In_Rig_CONST_GRP
+    100198: LeftFoot_FK_CTRL_POS_GRP
+    100200: LeftFoot_IK_BakingLOC
+    100202: LeftFoot_IK_CTRL
+    100204: LeftFoot_IK_CTRL_AnimData_CONST_GRP
+    100206: LeftFoot_IK_CTRL_grandparent_AnimData_CONST_GRP
+    100208: LeftFoot_IK_CTRL_grandparent_Global_POS_GRP
+    100210: LeftFoot_IK_CTRL_grandparent_inRig_CONST_GRP
+    100212: LeftFoot_IK_CTRL_grandparent_POS_GRP
+    100214: LeftFoot_IK_CTRL_In_Rig_CONST_GRP
+    100216: LeftFoot_IK_CTRL_parent_AnimData_CONST_GRP
+    100218: LeftFoot_IK_CTRL_parent_Global_POS_GRP
+    100220: LeftFoot_IK_CTRL_parent_POS_GRP
+    100222: LeftFoot_IK_CTRL_POS_GRP
+    100224: LeftFoot_IK_CTRL_Reorient_GRP
+    100226: LeftFoot_IK_Handle
+    100228: LeftFoot_Options
+    100230: LeftForeArm_FK_CTRL
+    100232: LeftForeArm_FK_CTRL_AnimData_CONST_GRP
+    100234: LeftForeArm_FK_CTRL_In_Rig_CONST_GRP
+    100236: LeftForeArm_FK_CTRL_POS_GRP
+    100238: LeftForeArm_IK_BakingLOC
+    100240: LeftForeArm_IK_CTRL
+    100242: LeftForeArm_IK_CTRL_AnimData_CONST_GRP
+    100244: LeftForeArm_IK_CTRL_GuideCurve_Cluster1Handle
+    100246: LeftForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+    100248: LeftForeArm_IK_CTRL_In_Rig_CONST_GRP
+    100250: LeftForeArm_IK_CTRL_parent_AnimData_CONST_GRP
+    100252: LeftForeArm_IK_CTRL_parent_Global_POS_GRP
+    100254: LeftForeArm_IK_CTRL_parent_POS_GRP
+    100256: LeftForeArm_IK_CTRL_POS_GRP
+    100258: LeftHand_CTRLs_GRP
+    100260: LeftHand_FK_CTRL
+    100262: LeftHand_FK_CTRL_AnimData_CONST_GRP
+    100264: LeftHand_FK_CTRL_In_Rig_CONST_GRP
+    100266: LeftHand_FK_CTRL_POS_GRP
+    100268: LeftHand_IK_CTRL
+    100270: LeftHand_IK_CTRL_AnimData_CONST_GRP
+    100272: LeftHand_IK_CTRL_grandparent_AnimData_CONST_GRP
+    100274: LeftHand_IK_CTRL_grandparent_Global_POS_GRP
+    100276: LeftHand_IK_CTRL_grandparent_inRig_CONST_GRP
+    100278: LeftHand_IK_CTRL_grandparent_POS_GRP
+    100280: LeftHand_IK_CTRL_In_Rig_CONST_GRP
+    100282: LeftHand_IK_CTRL_parent_AnimData_CONST_GRP
+    100284: LeftHand_IK_CTRL_parent_Global_POS_GRP
+    100286: LeftHand_IK_CTRL_parent_POS_GRP
+    100288: LeftHand_IK_CTRL_POS_GRP
+    100290: LeftHand_IK_Handle
+    100292: LeftHand_Options
+    100294: LeftLeg_FK_CTRL
+    100296: LeftLeg_FK_CTRL_AnimData_CONST_GRP
+    100298: LeftLeg_FK_CTRL_In_Rig_CONST_GRP
+    100300: LeftLeg_FK_CTRL_POS_GRP
+    100302: LeftLeg_IK_BakingLOC
+    100304: LeftLeg_IK_CTRL
+    100306: LeftLeg_IK_CTRL_AnimData_CONST_GRP
+    100308: LeftLeg_IK_CTRL_Follow_Foot_GRP
+    100310: LeftLeg_IK_CTRL_Follow_Knee_GRP
+    100312: LeftLeg_IK_CTRL_GuideCurve_Cluster1Handle
+    100314: LeftLeg_IK_CTRL_GuideCurve_Cluster2Handle
+    100316: LeftLeg_IK_CTRL_In_Rig_CONST_GRP
+    100318: LeftLeg_IK_CTRL_parent_AnimData_CONST_GRP
+    100320: LeftLeg_IK_CTRL_parent_Global_POS_GRP
+    100322: LeftLeg_IK_CTRL_parent_POS_GRP
+    100324: LeftLeg_IK_CTRL_POS_GRP
+    100326: LeftShoulder_CTRL
+    100328: LeftShoulder_CTRL_AnimData_CONST_GRP
+    100330: LeftShoulder_CTRL_In_Rig_CONST_GRP
+    100332: LeftShoulder_CTRL_POS_GRP
+    100334: LeftToeBase_FK_CTRL
+    100336: LeftToeBase_FK_CTRL_AnimData_CONST_GRP
+    100338: LeftToeBase_FK_CTRL_In_Rig_CONST_GRP
+    100340: LeftToeBase_FK_CTRL_POS_GRP
+    100342: LeftUpLeg_FK_CTRL
+    100344: LeftUpLeg_FK_CTRL_AnimData_CONST_GRP
+    100346: LeftUpLeg_FK_CTRL_In_Rig_CONST_GRP
+    100348: LeftUpLeg_FK_CTRL_POS_GRP
+    100350: lower_arm_guard_L
+    100352: lower_arm_guard_L 1
+    100354: lower_arm_guard_L2
+    100356: Mesh_body
+    100358: Neck_CTRL
+    100360: Neck_CTRL_AnimData_CONST_GRP
+    100362: Neck_CTRL_In_Rig_CONST_GRP
+    100364: Neck_CTRL_POS_GRP
+    100366: pasted__scythe
+    100368: //RootNode
+    100370: Right_Ankle_IK_AnimData_GRP
+    100372: Right_Ankle_IK_CTRL
+    100374: Right_Toe_End_IK_CTRL
+    100376: Right_Toe_IK_AnimData_GRP
+    100378: Right_ToeBase_IK_AnimData_GRP
+    100380: Right_ToeBase_IK_CTRL
+    100382: Right_ToeBase_IkHandle
+    100384: RightArm_FK_CTRL
+    100386: RightArm_FK_CTRL_AnimData_CONST_GRP
+    100388: RightArm_FK_CTRL_In_Rig_CONST_GRP
+    100390: RightArm_FK_CTRL_POS_GRP
+    100392: RightFoot_FK_CTRL
+    100394: RightFoot_FK_CTRL_AnimData_CONST_GRP
+    100396: RightFoot_FK_CTRL_In_Rig_CONST_GRP
+    100398: RightFoot_FK_CTRL_POS_GRP
+    100400: RightFoot_IK_BakingLOC
+    100402: RightFoot_IK_CTRL
+    100404: RightFoot_IK_CTRL_AnimData_CONST_GRP
+    100406: RightFoot_IK_CTRL_grandparent_AnimData_CONST_GRP
+    100408: RightFoot_IK_CTRL_grandparent_Global_POS_GRP
+    100410: RightFoot_IK_CTRL_grandparent_inRig_CONST_GRP
+    100412: RightFoot_IK_CTRL_grandparent_POS_GRP
+    100414: RightFoot_IK_CTRL_In_Rig_CONST_GRP
+    100416: RightFoot_IK_CTRL_parent_AnimData_CONST_GRP
+    100418: RightFoot_IK_CTRL_parent_Global_POS_GRP
+    100420: RightFoot_IK_CTRL_parent_POS_GRP
+    100422: RightFoot_IK_CTRL_POS_GRP
+    100424: RightFoot_IK_CTRL_Reorient_GRP
+    100426: RightFoot_IK_Handle
+    100428: RightFoot_Options
+    100430: RightForeArm_FK_CTRL
+    100432: RightForeArm_FK_CTRL_AnimData_CONST_GRP
+    100434: RightForeArm_FK_CTRL_In_Rig_CONST_GRP
+    100436: RightForeArm_FK_CTRL_POS_GRP
+    100438: RightForeArm_IK_BakingLOC
+    100440: RightForeArm_IK_CTRL
+    100442: RightForeArm_IK_CTRL_AnimData_CONST_GRP
+    100444: RightForeArm_IK_CTRL_GuideCurve_Cluster1Handle
+    100446: RightForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+    100448: RightForeArm_IK_CTRL_In_Rig_CONST_GRP
+    100450: RightForeArm_IK_CTRL_parent_AnimData_CONST_GRP
+    100452: RightForeArm_IK_CTRL_parent_Global_POS_GRP
+    100454: RightForeArm_IK_CTRL_parent_POS_GRP
+    100456: RightForeArm_IK_CTRL_POS_GRP
+    100458: RightHand_CTRLs_GRP
+    100460: RightHand_FK_CTRL
+    100462: RightHand_FK_CTRL_AnimData_CONST_GRP
+    100464: RightHand_FK_CTRL_In_Rig_CONST_GRP
+    100466: RightHand_FK_CTRL_POS_GRP
+    100468: RightHand_IK_CTRL
+    100470: RightHand_IK_CTRL_AnimData_CONST_GRP
+    100472: RightHand_IK_CTRL_grandparent_AnimData_CONST_GRP
+    100474: RightHand_IK_CTRL_grandparent_Global_POS_GRP
+    100476: RightHand_IK_CTRL_grandparent_inRig_CONST_GRP
+    100478: RightHand_IK_CTRL_grandparent_POS_GRP
+    100480: RightHand_IK_CTRL_In_Rig_CONST_GRP
+    100482: RightHand_IK_CTRL_parent_AnimData_CONST_GRP
+    100484: RightHand_IK_CTRL_parent_Global_POS_GRP
+    100486: RightHand_IK_CTRL_parent_POS_GRP
+    100488: RightHand_IK_CTRL_POS_GRP
+    100490: RightHand_IK_Handle
+    100492: RightHand_Options
+    100494: RightLeg_FK_CTRL
+    100496: RightLeg_FK_CTRL_AnimData_CONST_GRP
+    100498: RightLeg_FK_CTRL_In_Rig_CONST_GRP
+    100500: RightLeg_FK_CTRL_POS_GRP
+    100502: RightLeg_IK_BakingLOC
+    100504: RightLeg_IK_CTRL
+    100506: RightLeg_IK_CTRL_AnimData_CONST_GRP
+    100508: RightLeg_IK_CTRL_Follow_Foot_GRP
+    100510: RightLeg_IK_CTRL_Follow_Knee_GRP
+    100512: RightLeg_IK_CTRL_GuideCurve_Cluster1Handle
+    100514: RightLeg_IK_CTRL_GuideCurve_Cluster2Handle
+    100516: RightLeg_IK_CTRL_In_Rig_CONST_GRP
+    100518: RightLeg_IK_CTRL_parent_AnimData_CONST_GRP
+    100520: RightLeg_IK_CTRL_parent_Global_POS_GRP
+    100522: RightLeg_IK_CTRL_parent_POS_GRP
+    100524: RightLeg_IK_CTRL_POS_GRP
+    100526: RightShoulder_CTRL
+    100528: RightShoulder_CTRL_AnimData_CONST_GRP
+    100530: RightShoulder_CTRL_In_Rig_CONST_GRP
+    100532: RightShoulder_CTRL_POS_GRP
+    100534: RightToeBase_FK_CTRL
+    100536: RightToeBase_FK_CTRL_AnimData_CONST_GRP
+    100538: RightToeBase_FK_CTRL_In_Rig_CONST_GRP
+    100540: RightToeBase_FK_CTRL_POS_GRP
+    100542: RightUpLeg_FK_CTRL
+    100544: RightUpLeg_FK_CTRL_AnimData_CONST_GRP
+    100546: RightUpLeg_FK_CTRL_In_Rig_CONST_GRP
+    100548: RightUpLeg_FK_CTRL_POS_GRP
+    100550: ring
+    100552: ring 1
+    100554: ring 2
+    100556: Root_CTRL
+    100558: Root_CTRL_AnimData_CONST_GRP
+    100560: Root_CTRL_In_Rig_CONST_GRP
+    100562: Root_CTRL_POS_GRP
+    100564: scythe
+    100566: shin_L
+    100568: shin_L 1
+    100570: shin_L2
+    100572: shin_L3
+    100574: shin_L4
+    100576: shin_L5
+    100578: shoulderguard_L
+    100580: shoulderguard_L 1
+    100582: shoulderguard_R
+    100584: skull
+    100586: spike
+    100588: spike 1
+    100590: spike 2
+    100592: spike1
+    100594: spike1 1
+    100596: spike1 2
+    100598: spike2
+    100600: spike2 1
+    100602: spike2 2
+    100604: spike3
+    100606: spike3 1
+    100608: spike3 2
+    100610: spike4
+    100612: spike4 1
+    100614: spike4 2
+    100616: spike5
+    100618: spike5 1
+    100620: spike5 2
+    100622: spiked_ring
+    100624: spiked_ring1
+    100626: spiked_ring2
+    100628: Spine1_CTRL
+    100630: Spine1_CTRL_AnimData_CONST_GRP
+    100632: Spine1_CTRL_In_Rig_CONST_GRP
+    100634: Spine1_CTRL_POS_GRP
+    100636: Spine2_CTRL
+    100638: Spine2_CTRL_AnimData_CONST_GRP
+    100640: Spine2_CTRL_In_Rig_CONST_GRP
+    100642: Spine2_CTRL_POS_GRP
+    100644: Spine_CTRL
+    100646: Spine_CTRL_AnimData_CONST_GRP
+    100648: Spine_CTRL_In_Rig_CONST_GRP
+    100650: Spine_CTRL_POS_GRP
+    100652: staff
+    100654: upper_leg_plate_L
+    100656: upper_leg_plate_L 1
+    100658: upper_leg_plate_L2
+    100660: upper_leg_plate_R
+    400000: backplate_high
+    400002: backplate_high1
+    400004: Bind_Head
+    400006: Bind_HeadTop_End
+    400008: Bind_Hips
+    400010: Bind_Joint_GRP
+    400012: Bind_LeftArm
+    400014: Bind_LeftFoot
+    400016: Bind_LeftForeArm
+    400018: Bind_LeftHand
+    400020: Bind_LeftLeg
+    400022: Bind_LeftShoulder
+    400024: Bind_LeftToe_End
+    400026: Bind_LeftToeBase
+    400028: Bind_LeftUpLeg
+    400030: Bind_Neck
+    400032: Bind_RightArm
+    400034: Bind_RightFoot
+    400036: Bind_RightForeArm
+    400038: Bind_RightHand
+    400040: Bind_RightLeg
+    400042: Bind_RightShoulder
+    400044: Bind_RightToe_End
+    400046: Bind_RightToeBase
+    400048: Bind_RightUpLeg
+    400050: Bind_Spine
+    400052: Bind_Spine1
+    400054: Bind_Spine2
+    400056: blade
+    400058: buckle
+    400060: calf_L
+    400062: Character
+    400064: chestplate
+    400066: crotchguard
+    400068: crotchguard 1
+    400070: CTRL_GRP
+    400072: FK_LeftArm
+    400074: FK_LeftFoot
+    400076: FK_LeftForeArm
+    400078: FK_LeftHand
+    400080: FK_LeftLeg
+    400082: FK_LeftToe_End
+    400084: FK_LeftToeBase
+    400086: FK_LeftUpLeg
+    400088: FK_RightArm
+    400090: FK_RightFoot
+    400092: FK_RightForeArm
+    400094: FK_RightHand
+    400096: FK_RightLeg
+    400098: FK_RightToe_End
+    400100: FK_RightToeBase
+    400102: FK_RightUpLeg
+    400104: global_CTRL
+    400106: Head_CTRL
+    400108: Head_CTRL_AnimData_CONST_GRP
+    400110: Head_CTRL_In_Rig_CONST_GRP
+    400112: Head_CTRL_Inherit_Rotation_GRP
+    400114: Head_CTRL_POS_GRP
+    400116: helmet
+    400118: IK_Dummy_Hips
+    400120: IK_Dummy_Joint_GRP
+    400122: IK_Dummy_LeftShoulder
+    400124: IK_Dummy_RightShoulder
+    400126: IK_Dummy_Spine
+    400128: IK_Dummy_Spine1
+    400130: IK_Dummy_Spine2
+    400132: IK_LeftArm
+    400134: IK_LeftFoot
+    400136: IK_LeftForeArm
+    400138: IK_LeftHand
+    400140: IK_LeftLeg
+    400142: IK_LeftToe_End
+    400144: IK_LeftToeBase
+    400146: IK_LeftUpLeg
+    400148: IK_RightArm
+    400150: IK_RightFoot
+    400152: IK_RightForeArm
+    400154: IK_RightHand
+    400156: IK_RightLeg
+    400158: IK_RightToe_End
+    400160: IK_RightToeBase
+    400162: IK_RightUpLeg
+    400164: Joint_GRP
+    400166: kneeguard_L
+    400168: kneeguard_R
+    400170: Left_Ankle_IK_AnimData_GRP
+    400172: Left_Ankle_IK_CTRL
+    400174: Left_Toe_End_IK_CTRL
+    400176: Left_Toe_IK_AnimData_GRP
+    400178: Left_ToeBase_IK_AnimData_GRP
+    400180: Left_ToeBase_IK_CTRL
+    400182: Left_ToeBase_IkHandle
+    400184: LeftArm_FK_CTRL
+    400186: LeftArm_FK_CTRL_AnimData_CONST_GRP
+    400188: LeftArm_FK_CTRL_In_Rig_CONST_GRP
+    400190: LeftArm_FK_CTRL_POS_GRP
+    400192: LeftFoot_FK_CTRL
+    400194: LeftFoot_FK_CTRL_AnimData_CONST_GRP
+    400196: LeftFoot_FK_CTRL_In_Rig_CONST_GRP
+    400198: LeftFoot_FK_CTRL_POS_GRP
+    400200: LeftFoot_IK_BakingLOC
+    400202: LeftFoot_IK_CTRL
+    400204: LeftFoot_IK_CTRL_AnimData_CONST_GRP
+    400206: LeftFoot_IK_CTRL_grandparent_AnimData_CONST_GRP
+    400208: LeftFoot_IK_CTRL_grandparent_Global_POS_GRP
+    400210: LeftFoot_IK_CTRL_grandparent_inRig_CONST_GRP
+    400212: LeftFoot_IK_CTRL_grandparent_POS_GRP
+    400214: LeftFoot_IK_CTRL_In_Rig_CONST_GRP
+    400216: LeftFoot_IK_CTRL_parent_AnimData_CONST_GRP
+    400218: LeftFoot_IK_CTRL_parent_Global_POS_GRP
+    400220: LeftFoot_IK_CTRL_parent_POS_GRP
+    400222: LeftFoot_IK_CTRL_POS_GRP
+    400224: LeftFoot_IK_CTRL_Reorient_GRP
+    400226: LeftFoot_IK_Handle
+    400228: LeftFoot_Options
+    400230: LeftForeArm_FK_CTRL
+    400232: LeftForeArm_FK_CTRL_AnimData_CONST_GRP
+    400234: LeftForeArm_FK_CTRL_In_Rig_CONST_GRP
+    400236: LeftForeArm_FK_CTRL_POS_GRP
+    400238: LeftForeArm_IK_BakingLOC
+    400240: LeftForeArm_IK_CTRL
+    400242: LeftForeArm_IK_CTRL_AnimData_CONST_GRP
+    400244: LeftForeArm_IK_CTRL_GuideCurve_Cluster1Handle
+    400246: LeftForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+    400248: LeftForeArm_IK_CTRL_In_Rig_CONST_GRP
+    400250: LeftForeArm_IK_CTRL_parent_AnimData_CONST_GRP
+    400252: LeftForeArm_IK_CTRL_parent_Global_POS_GRP
+    400254: LeftForeArm_IK_CTRL_parent_POS_GRP
+    400256: LeftForeArm_IK_CTRL_POS_GRP
+    400258: LeftHand_CTRLs_GRP
+    400260: LeftHand_FK_CTRL
+    400262: LeftHand_FK_CTRL_AnimData_CONST_GRP
+    400264: LeftHand_FK_CTRL_In_Rig_CONST_GRP
+    400266: LeftHand_FK_CTRL_POS_GRP
+    400268: LeftHand_IK_CTRL
+    400270: LeftHand_IK_CTRL_AnimData_CONST_GRP
+    400272: LeftHand_IK_CTRL_grandparent_AnimData_CONST_GRP
+    400274: LeftHand_IK_CTRL_grandparent_Global_POS_GRP
+    400276: LeftHand_IK_CTRL_grandparent_inRig_CONST_GRP
+    400278: LeftHand_IK_CTRL_grandparent_POS_GRP
+    400280: LeftHand_IK_CTRL_In_Rig_CONST_GRP
+    400282: LeftHand_IK_CTRL_parent_AnimData_CONST_GRP
+    400284: LeftHand_IK_CTRL_parent_Global_POS_GRP
+    400286: LeftHand_IK_CTRL_parent_POS_GRP
+    400288: LeftHand_IK_CTRL_POS_GRP
+    400290: LeftHand_IK_Handle
+    400292: LeftHand_Options
+    400294: LeftLeg_FK_CTRL
+    400296: LeftLeg_FK_CTRL_AnimData_CONST_GRP
+    400298: LeftLeg_FK_CTRL_In_Rig_CONST_GRP
+    400300: LeftLeg_FK_CTRL_POS_GRP
+    400302: LeftLeg_IK_BakingLOC
+    400304: LeftLeg_IK_CTRL
+    400306: LeftLeg_IK_CTRL_AnimData_CONST_GRP
+    400308: LeftLeg_IK_CTRL_Follow_Foot_GRP
+    400310: LeftLeg_IK_CTRL_Follow_Knee_GRP
+    400312: LeftLeg_IK_CTRL_GuideCurve_Cluster1Handle
+    400314: LeftLeg_IK_CTRL_GuideCurve_Cluster2Handle
+    400316: LeftLeg_IK_CTRL_In_Rig_CONST_GRP
+    400318: LeftLeg_IK_CTRL_parent_AnimData_CONST_GRP
+    400320: LeftLeg_IK_CTRL_parent_Global_POS_GRP
+    400322: LeftLeg_IK_CTRL_parent_POS_GRP
+    400324: LeftLeg_IK_CTRL_POS_GRP
+    400326: LeftShoulder_CTRL
+    400328: LeftShoulder_CTRL_AnimData_CONST_GRP
+    400330: LeftShoulder_CTRL_In_Rig_CONST_GRP
+    400332: LeftShoulder_CTRL_POS_GRP
+    400334: LeftToeBase_FK_CTRL
+    400336: LeftToeBase_FK_CTRL_AnimData_CONST_GRP
+    400338: LeftToeBase_FK_CTRL_In_Rig_CONST_GRP
+    400340: LeftToeBase_FK_CTRL_POS_GRP
+    400342: LeftUpLeg_FK_CTRL
+    400344: LeftUpLeg_FK_CTRL_AnimData_CONST_GRP
+    400346: LeftUpLeg_FK_CTRL_In_Rig_CONST_GRP
+    400348: LeftUpLeg_FK_CTRL_POS_GRP
+    400350: lower_arm_guard_L
+    400352: lower_arm_guard_L 1
+    400354: lower_arm_guard_L2
+    400356: Mesh_body
+    400358: Neck_CTRL
+    400360: Neck_CTRL_AnimData_CONST_GRP
+    400362: Neck_CTRL_In_Rig_CONST_GRP
+    400364: Neck_CTRL_POS_GRP
+    400366: pasted__scythe
+    400368: //RootNode
+    400370: Right_Ankle_IK_AnimData_GRP
+    400372: Right_Ankle_IK_CTRL
+    400374: Right_Toe_End_IK_CTRL
+    400376: Right_Toe_IK_AnimData_GRP
+    400378: Right_ToeBase_IK_AnimData_GRP
+    400380: Right_ToeBase_IK_CTRL
+    400382: Right_ToeBase_IkHandle
+    400384: RightArm_FK_CTRL
+    400386: RightArm_FK_CTRL_AnimData_CONST_GRP
+    400388: RightArm_FK_CTRL_In_Rig_CONST_GRP
+    400390: RightArm_FK_CTRL_POS_GRP
+    400392: RightFoot_FK_CTRL
+    400394: RightFoot_FK_CTRL_AnimData_CONST_GRP
+    400396: RightFoot_FK_CTRL_In_Rig_CONST_GRP
+    400398: RightFoot_FK_CTRL_POS_GRP
+    400400: RightFoot_IK_BakingLOC
+    400402: RightFoot_IK_CTRL
+    400404: RightFoot_IK_CTRL_AnimData_CONST_GRP
+    400406: RightFoot_IK_CTRL_grandparent_AnimData_CONST_GRP
+    400408: RightFoot_IK_CTRL_grandparent_Global_POS_GRP
+    400410: RightFoot_IK_CTRL_grandparent_inRig_CONST_GRP
+    400412: RightFoot_IK_CTRL_grandparent_POS_GRP
+    400414: RightFoot_IK_CTRL_In_Rig_CONST_GRP
+    400416: RightFoot_IK_CTRL_parent_AnimData_CONST_GRP
+    400418: RightFoot_IK_CTRL_parent_Global_POS_GRP
+    400420: RightFoot_IK_CTRL_parent_POS_GRP
+    400422: RightFoot_IK_CTRL_POS_GRP
+    400424: RightFoot_IK_CTRL_Reorient_GRP
+    400426: RightFoot_IK_Handle
+    400428: RightFoot_Options
+    400430: RightForeArm_FK_CTRL
+    400432: RightForeArm_FK_CTRL_AnimData_CONST_GRP
+    400434: RightForeArm_FK_CTRL_In_Rig_CONST_GRP
+    400436: RightForeArm_FK_CTRL_POS_GRP
+    400438: RightForeArm_IK_BakingLOC
+    400440: RightForeArm_IK_CTRL
+    400442: RightForeArm_IK_CTRL_AnimData_CONST_GRP
+    400444: RightForeArm_IK_CTRL_GuideCurve_Cluster1Handle
+    400446: RightForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+    400448: RightForeArm_IK_CTRL_In_Rig_CONST_GRP
+    400450: RightForeArm_IK_CTRL_parent_AnimData_CONST_GRP
+    400452: RightForeArm_IK_CTRL_parent_Global_POS_GRP
+    400454: RightForeArm_IK_CTRL_parent_POS_GRP
+    400456: RightForeArm_IK_CTRL_POS_GRP
+    400458: RightHand_CTRLs_GRP
+    400460: RightHand_FK_CTRL
+    400462: RightHand_FK_CTRL_AnimData_CONST_GRP
+    400464: RightHand_FK_CTRL_In_Rig_CONST_GRP
+    400466: RightHand_FK_CTRL_POS_GRP
+    400468: RightHand_IK_CTRL
+    400470: RightHand_IK_CTRL_AnimData_CONST_GRP
+    400472: RightHand_IK_CTRL_grandparent_AnimData_CONST_GRP
+    400474: RightHand_IK_CTRL_grandparent_Global_POS_GRP
+    400476: RightHand_IK_CTRL_grandparent_inRig_CONST_GRP
+    400478: RightHand_IK_CTRL_grandparent_POS_GRP
+    400480: RightHand_IK_CTRL_In_Rig_CONST_GRP
+    400482: RightHand_IK_CTRL_parent_AnimData_CONST_GRP
+    400484: RightHand_IK_CTRL_parent_Global_POS_GRP
+    400486: RightHand_IK_CTRL_parent_POS_GRP
+    400488: RightHand_IK_CTRL_POS_GRP
+    400490: RightHand_IK_Handle
+    400492: RightHand_Options
+    400494: RightLeg_FK_CTRL
+    400496: RightLeg_FK_CTRL_AnimData_CONST_GRP
+    400498: RightLeg_FK_CTRL_In_Rig_CONST_GRP
+    400500: RightLeg_FK_CTRL_POS_GRP
+    400502: RightLeg_IK_BakingLOC
+    400504: RightLeg_IK_CTRL
+    400506: RightLeg_IK_CTRL_AnimData_CONST_GRP
+    400508: RightLeg_IK_CTRL_Follow_Foot_GRP
+    400510: RightLeg_IK_CTRL_Follow_Knee_GRP
+    400512: RightLeg_IK_CTRL_GuideCurve_Cluster1Handle
+    400514: RightLeg_IK_CTRL_GuideCurve_Cluster2Handle
+    400516: RightLeg_IK_CTRL_In_Rig_CONST_GRP
+    400518: RightLeg_IK_CTRL_parent_AnimData_CONST_GRP
+    400520: RightLeg_IK_CTRL_parent_Global_POS_GRP
+    400522: RightLeg_IK_CTRL_parent_POS_GRP
+    400524: RightLeg_IK_CTRL_POS_GRP
+    400526: RightShoulder_CTRL
+    400528: RightShoulder_CTRL_AnimData_CONST_GRP
+    400530: RightShoulder_CTRL_In_Rig_CONST_GRP
+    400532: RightShoulder_CTRL_POS_GRP
+    400534: RightToeBase_FK_CTRL
+    400536: RightToeBase_FK_CTRL_AnimData_CONST_GRP
+    400538: RightToeBase_FK_CTRL_In_Rig_CONST_GRP
+    400540: RightToeBase_FK_CTRL_POS_GRP
+    400542: RightUpLeg_FK_CTRL
+    400544: RightUpLeg_FK_CTRL_AnimData_CONST_GRP
+    400546: RightUpLeg_FK_CTRL_In_Rig_CONST_GRP
+    400548: RightUpLeg_FK_CTRL_POS_GRP
+    400550: ring
+    400552: ring 1
+    400554: ring 2
+    400556: Root_CTRL
+    400558: Root_CTRL_AnimData_CONST_GRP
+    400560: Root_CTRL_In_Rig_CONST_GRP
+    400562: Root_CTRL_POS_GRP
+    400564: scythe
+    400566: shin_L
+    400568: shin_L 1
+    400570: shin_L2
+    400572: shin_L3
+    400574: shin_L4
+    400576: shin_L5
+    400578: shoulderguard_L
+    400580: shoulderguard_L 1
+    400582: shoulderguard_R
+    400584: skull
+    400586: spike
+    400588: spike 1
+    400590: spike 2
+    400592: spike1
+    400594: spike1 1
+    400596: spike1 2
+    400598: spike2
+    400600: spike2 1
+    400602: spike2 2
+    400604: spike3
+    400606: spike3 1
+    400608: spike3 2
+    400610: spike4
+    400612: spike4 1
+    400614: spike4 2
+    400616: spike5
+    400618: spike5 1
+    400620: spike5 2
+    400622: spiked_ring
+    400624: spiked_ring1
+    400626: spiked_ring2
+    400628: Spine1_CTRL
+    400630: Spine1_CTRL_AnimData_CONST_GRP
+    400632: Spine1_CTRL_In_Rig_CONST_GRP
+    400634: Spine1_CTRL_POS_GRP
+    400636: Spine2_CTRL
+    400638: Spine2_CTRL_AnimData_CONST_GRP
+    400640: Spine2_CTRL_In_Rig_CONST_GRP
+    400642: Spine2_CTRL_POS_GRP
+    400644: Spine_CTRL
+    400646: Spine_CTRL_AnimData_CONST_GRP
+    400648: Spine_CTRL_In_Rig_CONST_GRP
+    400650: Spine_CTRL_POS_GRP
+    400652: staff
+    400654: upper_leg_plate_L
+    400656: upper_leg_plate_L 1
+    400658: upper_leg_plate_L2
+    400660: upper_leg_plate_R
+    2100000: lambert1
+    2100002: blinn12
+    2100004: staff1
+    2100006: blade1
+    2100008: skull1
+    2100010: spike7
+    2100012: ring2
+    2100014: pasted__pasted__pasted__lambert21
+    2100016: ring3
+    2100018: spike8
+    2100020: ring4
+    2100022: anisotropic1
+    2300000: backplate_high
+    2300002: backplate_high1
+    2300004: blade
+    2300006: buckle
+    2300008: calf_L
+    2300010: chestplate
+    2300012: crotchguard 1
+    2300014: helmet
+    2300016: kneeguard_L
+    2300018: kneeguard_R
+    2300020: lower_arm_guard_L 1
+    2300022: lower_arm_guard_L2
+    2300024: ring
+    2300026: ring 1
+    2300028: ring 2
+    2300030: shin_L 1
+    2300032: shin_L2
+    2300034: shin_L3
+    2300036: shin_L4
+    2300038: shin_L5
+    2300040: shoulderguard_L 1
+    2300042: shoulderguard_R
+    2300044: skull
+    2300046: spike
+    2300048: spike 1
+    2300050: spike 2
+    2300052: spike1
+    2300054: spike1 1
+    2300056: spike1 2
+    2300058: spike2
+    2300060: spike2 1
+    2300062: spike2 2
+    2300064: spike3
+    2300066: spike3 1
+    2300068: spike3 2
+    2300070: spike4
+    2300072: spike4 1
+    2300074: spike4 2
+    2300076: spike5
+    2300078: spike5 1
+    2300080: spike5 2
+    2300082: staff
+    2300084: upper_leg_plate_L 1
+    2300086: upper_leg_plate_L2
+    2300088: upper_leg_plate_R
+    3300000: backplate_high
+    3300002: backplate_high1
+    3300004: blade
+    3300006: buckle
+    3300008: calf_L
+    3300010: chestplate
+    3300012: crotchguard 1
+    3300014: helmet
+    3300016: kneeguard_L
+    3300018: kneeguard_R
+    3300020: lower_arm_guard_L 1
+    3300022: lower_arm_guard_L2
+    3300024: ring
+    3300026: ring 1
+    3300028: ring 2
+    3300030: shin_L 1
+    3300032: shin_L2
+    3300034: shin_L3
+    3300036: shin_L4
+    3300038: shin_L5
+    3300040: shoulderguard_L 1
+    3300042: shoulderguard_R
+    3300044: skull
+    3300046: spike
+    3300048: spike 1
+    3300050: spike 2
+    3300052: spike1
+    3300054: spike1 1
+    3300056: spike1 2
+    3300058: spike2
+    3300060: spike2 1
+    3300062: spike2 2
+    3300064: spike3
+    3300066: spike3 1
+    3300068: spike3 2
+    3300070: spike4
+    3300072: spike4 1
+    3300074: spike4 2
+    3300076: spike5
+    3300078: spike5 1
+    3300080: spike5 2
+    3300082: staff
+    3300084: upper_leg_plate_L 1
+    3300086: upper_leg_plate_L2
+    3300088: upper_leg_plate_R
+    4300000: Mesh_body
+    4300002: helmet
+    4300004: lower_arm_guard_L
+    4300006: shoulderguard_L
+    4300008: staff
+    4300010: blade
+    4300012: skull
+    4300014: spike
+    4300016: ring
+    4300018: spike1
+    4300020: spike2
+    4300022: spike3
+    4300024: spike4
+    4300026: spike5
+    4300028: spike
+    4300030: ring
+    4300032: spike1
+    4300034: spike2
+    4300036: spike3
+    4300038: spike4
+    4300040: spike5
+    4300042: spike
+    4300044: ring
+    4300046: spike1
+    4300048: spike2
+    4300050: spike3
+    4300052: spike4
+    4300054: spike5
+    4300056: lower_arm_guard_L2
+    4300058: shoulderguard_R
+    4300060: backplate_high
+    4300062: chestplate
+    4300064: backplate_high1
+    4300066: shin_L
+    4300068: shin_L5
+    4300070: calf_L
+    4300072: kneeguard_L
+    4300074: upper_leg_plate_L
+    4300076: shin_L2
+    4300078: shin_L3
+    4300080: shin_L4
+    4300082: kneeguard_R
+    4300084: upper_leg_plate_R
+    4300086: upper_leg_plate_L2
+    4300088: buckle
+    4300090: crotchguard
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Mesh_body
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

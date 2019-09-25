@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 9bc92cc1ea4b83a4285097a54b57da62
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bone1
+    100002: bone2
+    100004: //RootNode
+    100006: chain
+    100008: chain1
+    100010: pCube1
+    100012: pCube2
+    100014: pCube3
+    100016: pCube4
+    100018: pCube5
+    100020: pCube6
+    100022: pCylinder1
+    100024: pCylinder2
+    100026: pPlane2
+    100028: pPlane3
+    100030: pPyramid14
+    100032: pPyramid15
+    100034: pPyramid16
+    100036: thing
+    100038: transform30
+    100040: transform31
+    100042: transform32
+    100044: transform33
+    100046: transform34
+    100048: transform35
+    400000: bone1
+    400002: bone2
+    400004: //RootNode
+    400006: chain
+    400008: chain1
+    400010: pCube1
+    400012: pCube2
+    400014: pCube3
+    400016: pCube4
+    400018: pCube5
+    400020: pCube6
+    400022: pCylinder1
+    400024: pCylinder2
+    400026: pPlane2
+    400028: pPlane3
+    400030: pPyramid14
+    400032: pPyramid15
+    400034: pPyramid16
+    400036: thing
+    400038: transform30
+    400040: transform31
+    400042: transform32
+    400044: transform33
+    400046: transform34
+    400048: transform35
+    2100000: lambert15
+    2100002: lambert11
+    2100004: lambert12
+    2100006: lambert10
+    2300000: bone1
+    2300002: bone2
+    2300004: pCube1
+    2300006: pCube2
+    2300008: pCube3
+    2300010: pCube4
+    2300012: pCube5
+    2300014: pCube6
+    2300016: pCylinder1
+    2300018: pCylinder2
+    3300000: bone1
+    3300002: bone2
+    3300004: pCube1
+    3300006: pCube2
+    3300008: pCube3
+    3300010: pCube4
+    3300012: pCube5
+    3300014: pCube6
+    3300016: pCylinder1
+    3300018: pCylinder2
+    4300000: pCylinder2
+    4300002: pCylinder1
+    4300004: bone1
+    4300006: bone2
+    4300008: pCube1
+    4300010: pCube2
+    4300012: pCube3
+    4300014: pCube4
+    4300016: pCube5
+    4300018: pCube6
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

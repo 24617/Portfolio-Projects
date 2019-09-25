@@ -1,0 +1,27 @@
+body {
+  background-color: #001933;
+}
+
+#video {
+  display: block;
+  visibility: hidden;
+  position: absolute;
+  width: 1920;
+  height: 1080;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#canvas {
+  width = 95%;
+  height = 95%;
+  /* display: none; */
+}
+
+.rect {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: -1000px;
+  top: -1000px;
+}
